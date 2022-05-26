@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Roboto:wght@300&family=Spline+Sans+Mono:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -33,5 +33,15 @@ ul{
 ul li{
     
     text-align: center;
-    padding: 15px 0 12px 0 ;
+    padding: 22px 0 0 0 ;
+}
+.intro{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 250px;
+}
+.intro h1{
+    font-size: 70px;
+    font-family:'Spline Sans Mono', monospace;
 }
