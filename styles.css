@@ -7,7 +7,7 @@
 }
 section{
     height: 500px;
-    background: yellow;
+    
     border: solid  black 1px;
 }
 .header{
@@ -19,6 +19,9 @@ section{
 footer{
     background: black;
     height: 500px;
+}
+div.blank-nav-div{
+    width:55%;
 }
 nav{
     display: flex;
@@ -33,15 +36,74 @@ ul{
 ul li{
     
     text-align: center;
-    padding: 22px 0 0 0 ;
+    padding: 50px 0 0 0 ;
 }
 .intro{
     width: 70%;
     margin: auto;
     text-align: center;
-    padding: 250px;
+    padding: 160px 0 0 0 ;
 }
 .intro h1{
-    font-size: 70px;
+    font-size: 4rem;
     font-family:'Spline Sans Mono', monospace;
+    
+}
+.btn{
+    width: 180px;
+    padding: 10px;
+    background: coral;
+    color: white;
+    font-size:1.2rem;
+    font-style: bold;
+    border-radius: 10px;
+    margin: 70px 0 0 0 ;
+    cursor: pointer;
+    text-align: center;
+    border: white;
+}
+.btn:hover{
+    background: #ef744b;
+}
+.btn:active{
+    background: darkgrey;
+}
+div.social-icons{
+    width: 70%;
+    margin: 10px auto;
+
+}
+div.social-icons ul{
+    margin: auto;
+}
+div.social-icons ul li{
+   
+}
+
+/*Responsive*/
+
+@media only screen and (max-width:500px)
+{
+    .intro h1{
+        font-size: 2rem;
+    }
+    div.intro{
+        width: 100%;
+        padding:100px 0 0 50px ;
+        text-align: left;
+
+    }
+    div.blank-nav-div{
+        width: 0;
+    }
+    nav ul{
+        display: block;
+        margin: auto;
+        
+    }
+    .btn{
+
+    }
+
+
 }
