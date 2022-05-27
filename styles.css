@@ -11,7 +11,7 @@ section{
     border: solid  black 1px;
 }
 .header{
-    background: #333335;
+    background: #211f26;
     height: 100vh;
     color: white;
     font-size: 22px;
@@ -108,8 +108,8 @@ svg{
     }
     nav ul li{
         padding:10px 15px;
-        background: #201f1f;
-        border: solid 1px #333335;
+        background: #494848;
+        border-bottom: solid 1px #211f26;
         text-align: left;
         font-size: 1rem;
         
