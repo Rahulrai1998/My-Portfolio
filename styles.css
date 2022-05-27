@@ -79,18 +79,21 @@ div.social-icons ul{
 div.social-icons ul li{
    
 }
+svg{
+    fill: white;
+}
 
 /*Responsive*/
 
-@media only screen and (max-width:500px)
+@media only screen and (max-width:800px)
 {
     .intro h1{
         font-size: 2rem;
     }
     div.intro{
         width: 100%;
-        padding:100px 0 0 50px ;
-        text-align: left;
+        padding:100px 0 0 0;
+        
 
     }
     div.blank-nav-div{
@@ -103,6 +106,15 @@ div.social-icons ul li{
     }
     .btn{
 
+    }
+    svg{
+        width:30px;
+        height: 30px;
+    }
+    div.social-icons ul a li{
+
+        padding: 100px 0 0 0 ;
+   
     }
 
 
