@@ -92,19 +92,27 @@ svg{
     }
     div.intro{
         width: 100%;
-        padding:100px 0 0 0;
+        padding:50px 0 0 0;
         
 
     }
     div.blank-nav-div{
         width: 0;
     }
+    
     nav ul{
         display: block;
         margin: auto;
         
     }
+    nav ul li{
+        padding:20px 0 0 0;
+
+    }
     .btn{
+        width: 120px;
+        padding: 5px;
+        margin: 50px 0 0 0;
 
     }
     svg{
@@ -113,8 +121,15 @@ svg{
     }
     div.social-icons ul a li{
 
-        padding: 100px 0 0 0 ;
+        padding: 50px 20px 0 20px ;
+        
+
    
+    }
+    div.social-icons{
+        width: 70%;
+        margin: auto;
+    
     }
 
 
