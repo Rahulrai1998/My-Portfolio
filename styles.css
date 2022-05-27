@@ -103,10 +103,13 @@ svg{
     nav ul{
         display: block;
         margin: auto;
+        width: 100%;
         
     }
     nav ul li{
-        padding:20px 0 0 0;
+        padding:10px 0;
+        background: #696360;
+        border: solid 1px #302926;
 
     }
     .btn{
