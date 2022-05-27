@@ -107,9 +107,12 @@ svg{
         
     }
     nav ul li{
-        padding:10px 0;
+        padding:10px 15px;
         background: #201f1f;
         border: solid 1px #333335;
+        text-align: left;
+        font-size: 1rem;
+        
 
     }
     .btn{
