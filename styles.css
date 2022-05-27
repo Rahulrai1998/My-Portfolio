@@ -11,13 +11,13 @@ section{
     border: solid  black 1px;
 }
 .header{
-    background: #211f26;
+    background: #333335;
     height: 100vh;
     color: white;
     font-size: 22px;
 }
 footer{
-    background: black;
+    background: rgb(87, 84, 84);
     height: 500px;
 }
 div.blank-nav-div{
@@ -108,8 +108,8 @@ svg{
     }
     nav ul li{
         padding:10px 0;
-        background: #696360;
-        border: solid 1px #302926;
+        background: #201f1f;
+        border: solid 1px #333335;
 
     }
     .btn{
