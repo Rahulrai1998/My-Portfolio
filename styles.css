@@ -95,7 +95,7 @@ svg{
     fill: white;
 }
 svg:hover , svg:active{
-    fill: coral;
+    fill: rgb(91, 231, 250);
 }
 nav::before{
     content: "";
