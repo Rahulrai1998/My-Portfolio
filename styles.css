@@ -47,6 +47,9 @@ nav ul li a{
     /*scroll-behavior: smooth;*/
     color: white;
 }
+nav ul li a:hover , a:active{
+    color: coral;
+}
 .intro{
     width: 70%;
     margin: auto;
