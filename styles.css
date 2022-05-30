@@ -147,6 +147,7 @@ div.my-dp img{
     height: 220px;
     border-radius: 110px;
     object-fit: cover;
+    margin: 15px;
 }
 .project_section{
     height: auto;
@@ -290,6 +291,10 @@ div.my-dp img{
         height: 400px;
        
         
+    }
+    .project_container a:active{
+        transform: none;
+
     }
 
 
