@@ -143,8 +143,8 @@ nav::before{
     padding: 10px 0;
 }
 div.my-dp img{
-    width: 230px;
-    height: 230px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
 }
 .project_section{
@@ -263,6 +263,11 @@ div.my-dp img{
        width: 60%;
        margin: auto;
        
+    }
+    div.my-dp img{
+        width: 180px;
+        height: 180px;
+        
     }
 
 
