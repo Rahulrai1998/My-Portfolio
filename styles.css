@@ -295,7 +295,7 @@ div.my-dp img{
     .p_card{
         width: 100%;
     }
-    .project_container a:active{
+    .p_card .project_card:active{
         transform: none;
 
     }
