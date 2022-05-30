@@ -262,13 +262,14 @@ div.my-dp img{
         padding: 30px;
     }
     .my-dp{
-       width: 50%;
-       margin: auto;
+       width: 70%;
+       margin:  auto;
+       text-align: center;
        
     }
     div.my-dp img{
-        width: 180px;
-        height: 180px;
+        width: 8rem;
+        height:8rem;
         
     }
     .prj img{
