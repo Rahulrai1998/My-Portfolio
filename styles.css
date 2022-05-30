@@ -295,6 +295,7 @@ div.my-dp img{
     }
     .p_card{
         width: 100%;
+        margin: auto;
     }
     .p_card .project_card:active{
         transform: none;
