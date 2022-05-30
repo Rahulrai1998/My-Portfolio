@@ -18,8 +18,8 @@ section{
     font-size: 22px;
 }
 footer{
-    background: rgb(87, 84, 84);
-    height: 500px;
+  
+    
 }
 div.blank-nav-div{
     width:55%;
@@ -277,8 +277,11 @@ div.my-dp img{
         height: 250px;
         
     }
+    .project_container{
+        padding: 5px;
+    }
     .project_card{
-        width: 360px;
+        width: 100%;
         height: 400px;
        
         
