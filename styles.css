@@ -18,7 +18,12 @@ section{
     font-size: 22px;
 }
 footer{
-  
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    color: white;
+    text-align: center;
     
 }
 div.blank-nav-div{
@@ -26,6 +31,7 @@ div.blank-nav-div{
 }
 nav{
     display: flex;
+
     
 }
 ul{
@@ -96,7 +102,7 @@ svg{
     fill: white;
 }
 svg:hover , svg:active{
-    fill: rgb(91, 231, 250);
+    fill: rgb(20, 197, 220);
 }
 nav::before{
     content: "";
@@ -202,6 +208,24 @@ div.my-dp img{
     font-size: 1.3rem;
 }
 
+.email , .contact{
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 18px;
+
+}
+.hamburger{
+    display: none;
+}
+ul.show{
+    display: block;
+
+}
+hr{
+    display: none;
+}
+
+
 /*Responsive*/
 
 @media only screen and (max-width:800px)
@@ -227,8 +251,8 @@ div.my-dp img{
     }
     nav ul li{
         padding:10px 15px;
-        background: #494848;
-        border-bottom: solid 1px #211f26;
+        /*background: #494848;*/
+       
         text-align: left;
         font-size: 1rem;
         
@@ -257,6 +281,7 @@ div.my-dp img{
     
     }
     .intro{
+        margin-top: 50px;
         width: 50%;
     }
     nav{
@@ -301,6 +326,38 @@ div.my-dp img{
         transform: none;
 
     }
+    .email , .contact{
+        font-size: 1.2rem;
+        text-decoration: none;
+        padding: 18px;
+    
+    }
+   
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        padding: 8px 15px;
+        cursor: pointer;
+       
+    }
+    nav ul{
+        display:none;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(20, 197, 220);
+
+    }
+    hr{
+        display: block;
+    }
+   
+    
+  
 
 
 }
