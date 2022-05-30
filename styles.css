@@ -187,12 +187,12 @@ div.my-dp img{
 .prj h3{
     margin: 15px;
 }
-.project_container a{
+.p_card a{
     text-decoration: none;
     color: black;
     
 }
-.project_container a:active{
+.project_card:active{
     transform: translateY(5px);
 }
 .prj p{
@@ -291,6 +291,9 @@ div.my-dp img{
         height: 400px;
        
         
+    }
+    .p_card{
+        width: 100%;
     }
     .project_container a:active{
         transform: none;
