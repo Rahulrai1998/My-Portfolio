@@ -183,12 +183,16 @@ div.my-dp img{
     border-radius: 50%;
     object-fit: cover;
 }
-.prj h3 , p{
-    margin: 10px;
+.prj h3{
+    margin: 15px;
 }
-.prj p a{
+.project_container a{
     text-decoration: none;
-    color: coral;
+    color: black;
+    
+}
+.project_container a:active{
+    transform: translateY(5px);
 }
 .prj p{
     font-size: 1.2rem;
@@ -268,8 +272,8 @@ div.my-dp img{
        
     }
     div.my-dp img{
-        width: 8rem;
-        height:8rem;
+        width: 10rem;
+        height:10rem;
         
     }
     .prj img{
