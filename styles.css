@@ -149,8 +149,8 @@ div.my-dp img{
     height: 220px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 15px;
     padding: 0 10px;
+   
 }
 .project_section{
     height: auto;
@@ -311,13 +311,13 @@ hr{
     }
     .my-dp{
        width: 70%;
-       margin:  auto;
+       margin: auto;
        text-align: center;
        
     }
     div.my-dp img{
-        width: 10rem;
-        height:10rem;
+        width: 8rem;
+        height:8rem;
         
     }
     .prj img{
