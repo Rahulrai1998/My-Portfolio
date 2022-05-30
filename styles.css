@@ -284,7 +284,8 @@ div.my-dp img{
         
     }
     .project_container{
-        padding: 5px;
+        align-items: center;
+        padding:5px;
     }
     .project_card{
         width: 100%;
