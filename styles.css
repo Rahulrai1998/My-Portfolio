@@ -384,7 +384,10 @@ hr{
         font-size: 1.5rem;
         padding:  0;
     }
-    
+    .email svg , .phone svg{
+        padding-right: 0;
+        padding-top: 15px;
+    }
   
 
 
