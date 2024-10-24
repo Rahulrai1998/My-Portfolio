@@ -34,6 +34,9 @@ section {
   color: white;
   font-size: 22px;
 }
+.social-icons ul {
+  width: 100%;
+}
 footer {
   background-color: coral;
   display: flex;
