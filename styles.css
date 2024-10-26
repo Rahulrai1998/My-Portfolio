@@ -170,13 +170,13 @@ div.my-dp img {
 .project_section {
   max-height: 600px;
   height: 100%;
-  margin: 10px auto;
+  margin: 0px auto 50px auto;
   /* border: 1px solid black; */
   overflow: auto;
   width: 90%;
   display: flex;
   text-align: center;
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
 }
 
 .project_section h2 {
@@ -223,17 +223,16 @@ div.my-dp img {
   font-size: 1.3rem;
 }
 
-div.card-bottom{
+div.card-bottom {
   padding: 20px;
   display: flex;
   justify-content: center;
   gap: 150px;
 }
 
-img.web-img{
+img.web-img {
   width: 30px;
   height: 30px;
-
 }
 
 .contact {
