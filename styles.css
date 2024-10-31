@@ -301,7 +301,7 @@ hr {
     padding: 5px;
     margin: 50px 0 0 0;
   }
-  svg {
+  li svg {
     width: 40px;
     height: 40px;
   }
@@ -335,7 +335,7 @@ hr {
     width: 8rem;
     height: 8rem;
   }
-  .prj img {
+  .prj img:not(.web-img) {
     margin-top: 20px;
     width: 250px;
     height: 250px;
