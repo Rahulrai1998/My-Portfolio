@@ -123,6 +123,8 @@ svg {
 svg:hover,
 svg:active {
   fill: coral;
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
 }
 nav::before {
   content: "";
@@ -196,6 +198,8 @@ div.my-dp img {
   background-color: white;
   margin: 12px;
   border-radius: 10px;
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
 }
 .prj img {
   /* margin-top: 20px; */
@@ -213,8 +217,11 @@ div.my-dp img {
   text-decoration: none;
   color: black;
 }
-.project_card:active {
-  transform: translateY(5px);
+.project_card:hover {
+  box-shadow: 0.2px 0.2px 2px 0.1px #ef744b;
+  transform: scale(1.01) translateY(-6px);
+  transition: box-shadow 0.8s, transform 0.4s ease-in-out;
+  cursor: pointer;
 }
 .prj p {
   font-size: 1.2rem;
